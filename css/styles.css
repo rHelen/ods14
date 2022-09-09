@@ -3,8 +3,12 @@
     justify-content: space-around;
 }
 
+.navbarconfig{
+    box-shadow: 10px 5px 5px rgba(70, 70, 70, 0.4);
+}
+
 .bgblue{
-    background-color: rgb(31, 151, 212);
+    background-image: url(../img/backvida.png);
 }
 
 .tm-social{
@@ -15,5 +19,14 @@
 }
 .navbarimg{
     height: 30px;
+}
+
+.bgbloco1{
+    background-image: url();
+}
+
+.card1{
+    width: 10rem;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); */
 }
 
