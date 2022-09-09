@@ -1,0 +1,19 @@
+.div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bgblue{
+    background-color: rgb(31, 151, 212);
+}
+
+.tm-social{
+    height: 35px;
+}
+.tm-social-photo{
+    height: 60px;
+}
+.navbarimg{
+    height: 30px;
+}
+
