@@ -1,2 +1,2 @@
-<h1>Web Store</h1>
-<p>This is a web store project</p>
+<h1>ODS 14</h1>
+<p>This is a university project</p>
