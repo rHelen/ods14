@@ -1,3 +1,30 @@
+/* MAIN SITE COLOR
+HEX : #1f97d4
+RGB : 31, 151, 212
+HSL  : 200, 74%, 47%
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    /* background: #161623;
+    color:white; */
+}
+
+.main-color{
+    color: #1f97d4;
+}
+
+#headerbg{
+    background-color: #1f97d4;
+    color:white;
+}
+
 .div{
     display: flex;
     justify-content: space-around;
@@ -29,4 +56,43 @@
     width: 10rem;
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); */
 }
+
+.textMain1 .text1{
+    opacity: 0.5;
+}
+
+.textMain1:hover .text1{
+    opacity:1;
+}
+.textMain2 .text2{
+    opacity: 0.5;
+}
+
+.textMain2:hover .text2{
+    opacity:1;
+}
+.titleMain1 .title1{
+    opacity: 0.7;
+}
+
+.titleMain1:hover .title1{
+    opacity:1;
+}
+
+#color1{
+    background: #2f2f42;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+}
+
+.container .card .content{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 
