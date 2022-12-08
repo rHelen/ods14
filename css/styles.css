@@ -21,7 +21,7 @@ body{
 }
 
 #headerbg{
-    background-color: #1f97d4;
+    background-color: #444444;
     color:white;
 }
 
@@ -35,7 +35,8 @@ body{
 }
 
 .bgblue{
-    background-image: url(../img/backvida.png);
+    /* background-image: url(../img/backvida.png); */
+    background-color: #161623;
 }
 
 .tm-social{
@@ -93,6 +94,25 @@ body{
 .container .card:hover .content{
     transform: translateY(0px);
     opacity: 1;
+    
 }
 
+.colordark{
+    background: #161623;
+    color:white;
+}
+
+.mapsconfig{
+    border: 20px 20px 50px #161623;
+}
+
+.odssize{
+    height:10rem; 
+    width: 10rem;
+    opacity: 0.6;
+}
+
+.odsmain .odssize:hover{
+    opacity: 1;
+}
 
