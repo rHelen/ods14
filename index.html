@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODS 14</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
+
+    <!--CSS ORIGINAL-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
     <style>
         body{
             background-color: #161623;
-            color:rgb(255, 255, 255);
+            color:white;
         }
         html {
         scroll-behavior: smooth;
@@ -49,23 +52,32 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Impactos negativos
+            <a class="nav-link" href="#ods14text"
+              >ODS 14
               <span class="sr-only">(current)</span>
             </a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">O que deve ser feito?</a>
+            <a class="nav-link" href="#carouselmetas">METAS</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#ongs">Como ajudar?</a>
+            <a class="nav-link" href="#ongs">Como ajudar</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#cards">Conheça as outras ODS's</a>
+            <a class="nav-link" href="#ods">Quais são as ODS?</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Saiba mais</a>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#footer">Contato</a>
           </li>
+
         </ul>
 
         <form class="form-inline">
@@ -91,21 +103,10 @@
           <img src="../img/protegendonew.png" alt="" class="img-fluid vh-100 vw-100">
         </div>
       </div>
-        <div class="container-fluid">
-            
-          
-          <!--TITLE AND LOGO IMAGE-->
 
-                <!-- <div class="row col-md-12 d-flex align-items-center titleMain1">
-                    <img src="../img/ods-14.jpg" class="h-25 w-25 m-0 p-0 col-md-3 mt-3 ml-4 title1" style="" alt="Imagem de ODS 14">
-                    <div class="col-md-8 d-flex justify-content-center">
-                    <span class="h2 text-light title1">A importância da <span class="h1 main-color">VIDA</span> marinha</span>
-                </div>   
-                
-            </div> -->
 
-            <!--Dentro do container ainda- texto-->
-            <div class="d-flex justify-content-center">
+            <!--Texto Principal-->
+            <div class="d-flex justify-content-center" id="ods14text">
             <div class="my-5 p-5 col-md-11 rounded" style="background-color: rgb(78, 78, 78);">
               <div class="textMain1">
                 <h3 class="col-md-10 d-flex justify-content-start mb-4 text1">A ODS 14 - PROTEGER A VIDA MARINHA</h3>
@@ -126,94 +127,118 @@
             </div>
           </div>
 
-            <!--ONGS E MAPA-->
+            <!--CAROUSEL DE METAS-->
 
-            <!--cards1-->
-            <div class="my-5 text-light container align-items-center flex-wrap d-flex justify-content-around col-md-10 position-relative">
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>14.1</h3>
-                  <h5>Até 2025</h5>
-                  <p>Prevenir e reduzir significativamente a poluição marinha de todos os tipos, especialmente a advinda de atividades terrestres, incluindo detritos marinhos e a poluição por nutrientes</p>
-                    </div>
-              </div>
+          <div class="mb-4 my-3" id="carouselmetas">
+            <h4 class="d-flex justify-content-center">METAS DA AGENDA 2030 ONU PARA ODS 14</h4>
+          </div>
+
+            <!--SWIPER-->
+            <div class="slide-container swiper">
+              <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
           
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>14.2</h3>
-                  <h5>Até 2020</h5>
-                  <p>Gerir de forma sustentável e proteger os ecossistemas marinhos e costeiros para evitar impactos adversos significativos, inclusive por meio do reforço da sua capacidade de resiliência, e tomar medidas para a sua restauração, a fim de assegurar oceanos saudáveis e produtivos</p>
-                    </div>
-              </div>
+                  <!--Cards-->
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.1</h3>
+                      <h5>Até 2025</h5>
+                      <p>Prevenir e reduzir significativamente a poluição marinha de todos os tipos, especialmente a advinda de atividades terrestres, incluindo detritos marinhos e a poluição por nutrientes</p>
+                        </div>
+                  </div>
           
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>03</h3>
-                  <h5>Card Três</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione libero, harum in a eius,
-                     vel commodi debitis delectus optio quae. Dolor recusandae, atque dicta pariatur earum at doloremque sequi!</p>
-                    </div>
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.2</h3>
+                      <h5>Até 2020</h5>
+                      <p>Gerir de forma sustentável e proteger os ecossistemas marinhos e costeiros para evitar impactos adversos significativos, inclusive por meio do reforço da sua capacidade de resiliência, e tomar medidas para a sua restauração, a fim de assegurar oceanos saudáveis e produtivos</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.3</h3>
+                      <!-- <h5>Até 2025</h5> -->
+                      <p>Minimizar e enfrentar os impactos da acidificação dos oceanos, inclusive por meio do reforço da cooperação científica em todos os níveis</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas bettercard">
+                      <h3>14.4</h3>
+                      <h5>Até 2020</h5>
+                      <p class="text10">Efetivamente regular a coleta, e acabar com a sobrepesca, ilegal, não reportada e não regulamentada e as práticas de pesca destrutivas, e implementar planos de gestão com base científica, para restaurar populações de peixes no menor tempo possível, pelo menos a níveis que possam produzir rendimento máximo sustentável, como determinado por suas características biológicas</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.5</h3>
+                      <h5>Até 2020</h5>
+                      <p>Conservar pelo menos 10% das zonas costeiras e marinhas, de acordo com a legislação nacional e internacional, e com base na melhor informação científica disponível.</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas bettercard6">
+                      <h3>14.6</h3>
+                      <h5>Até 2020</h5>
+                      <p>Proibir certas formas de subsídios à pesca, que contribuem para a sobrecapacidade e a sobrepesca, e eliminar os subsídios que contribuam para a pesca ilegal, não reportada e não regulamentada, e abster-se de introduzir novos subsídios como estes, reconhecendo que o tratamento especial e diferenciado adequado e eficaz para os países em desenvolvimento e os países menos desenvolvidos deve ser parte integrante da negociação sobre subsídios à pesca da Organização Mundial do Comércio</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.7</h3>
+                      <h5>Até 2030</h5>
+                      <p>Aumentar os benefícios econômicos para os pequenos Estados insulares em desenvolvimento e os países menos desenvolvidos, a partir do uso sustentável dos recursos marinhos, inclusive por meio de uma gestão sustentável da pesca, aquicultura e turismo</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas bettercard6">
+                      <h3>14.a</h3>
+                      <!-- <h5>Até 2020</h5> -->
+                      <p>Aumentar o conhecimento científico, desenvolver capacidades de pesquisa e transferir tecnologia marinha, tendo em conta os critérios e orientações sobre a Transferência de Tecnologia Marinha da Comissão Oceanográfica Intergovernamental, a fim de melhorar a saúde dos oceanos e aumentar a contribuição da biodiversidade marinha para o desenvolvimento dos países em desenvolvimento, em particular os pequenos Estados insulares em desenvolvimento e os países menos desenvolvidos</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.b</h3>
+                      <!-- <h5>Até 2020</h5> -->
+                      <p>Proporcionar o acesso dos pescadores artesanais de pequena escala aos recursos marinhos e mercados</p>
+                        </div>
+                  </div>
+          
+                  <div class="card swiper-slide color1 position-relative col-md-3 overflow-hidden" id="color1">
+                    <div class="content py-3 px-2 cardMetas">
+                      <h3>14.c</h3>
+                      <!-- <h5>Até 2020</h5> -->
+                      <p>Assegurar a conservação e o uso sustentável dos oceanos e seus recursos pela implementação do direito internacional, como refletido na UNCLOS [Convenção das Nações Unidas sobre o Direito do Mar], que provê o arcabouço legal para a conservação e utilização sustentável dos oceanos e dos seus recursos, conforme registrado no parágrafo 158 do “Futuro Que Queremos”</p>
+                        </div>
+                  </div>
+          
+          
+                </div>
               </div>
+            
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+          
             </div>
 
-            <!--cards2-->
-            <div class="my-5 text-light container align-items-center flex-wrap d-flex justify-content-around col-md-10 position-relative">
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>14.1</h3>
-                  <h5>Até 2025</h5>
-                  <p>Prevenir e reduzir significativamente a poluição marinha de todos os tipos, especialmente a advinda de atividades terrestres, incluindo detritos marinhos e a poluição por nutrientes</p>
-                    </div>
-              </div>
-          
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>14.2</h3>
-                  <h5>Até 2020</h5>
-                  <p>Gerir de forma sustentável e proteger os ecossistemas marinhos e costeiros para evitar impactos adversos significativos, inclusive por meio do reforço da sua capacidade de resiliência, e tomar medidas para a sua restauração, a fim de assegurar oceanos saudáveis e produtivos</p>
-                    </div>
-              </div>
-          
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>03</h3>
-                  <h5>Card Três</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione libero, harum in a eius,
-                     vel commodi debitis delectus optio quae. Dolor recusandae, atque dicta pariatur earum at doloremque sequi!</p>
-                    </div>
-              </div>
-            </div>
 
-            <!--cards3-->
-            <div class="my-5 text-light container align-items-center flex-wrap d-flex justify-content-around col-md-10 position-relative">
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>14.1</h3>
-                  <h5>Até 2025</h5>
-                  <p>Prevenir e reduzir significativamente a poluição marinha de todos os tipos, especialmente a advinda de atividades terrestres, incluindo detritos marinhos e a poluição por nutrientes</p>
-                    </div>
-              </div>
-          
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>14.2</h3>
-                  <h5>Até 2020</h5>
-                  <p>Gerir de forma sustentável e proteger os ecossistemas marinhos e costeiros para evitar impactos adversos significativos, inclusive por meio do reforço da sua capacidade de resiliência, e tomar medidas para a sua restauração, a fim de assegurar oceanos saudáveis e produtivos</p>
-                    </div>
-              </div>
-          
-              <div class="card color1 position-relative col-md-3 overflow-hidden" id="color1">
-                <div class="content py-3 px-2">
-                  <h3>03</h3>
-                  <h5>Card Três</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione libero, harum in a eius,
-                     vel commodi debitis delectus optio quae. Dolor recusandae, atque dicta pariatur earum at doloremque sequi!</p>
-                    </div>
-              </div>
-            </div>
+          <!--ONGS E MAPA-->
 
+          <!--TITULO ONGS-->
 
-            <div class="container row d-flex align-items-center mx-0 my-5" id="ongs">
+          <div id="ongs">
+            <h4 class="d-flex justify-content-center mt-5 mb-3">ONGS E EVENTOS ABERTOS PARA VOLUNTÁRIOS</h4>
+          </div>
+
+            <div class="container row d-flex align-items-center mx-0 mb-5">
               <div class="col-md-7 text-dark">
 
                   <!--ONG 1-->
@@ -332,8 +357,8 @@
 
     </div>
 
-    <div class="bgblue mt-2">
-        <p class="h2 text-light d-flex justify-content-center pt-3" id="cards">CONHEÇA AS OUTRAS ODS'S</p>
+    <div class="bgblue mt-2" id="ods">
+        <p class="h2 text-light d-flex justify-content-center pt-3" id="cards">CONHEÇA AS ODS's</p>
       
       <!--ODS-->
       <div class="row mx-3 mt-4 d-flex odsmain">
@@ -411,15 +436,30 @@
       </footer>
 
     <script src="../js/java.js"></script>
+
+    <!--JQUERY-->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+
+    <!--BOTSTRAP-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  
+  
+    <!-- JavaScript -->
+  <script type="text/javascript" src="js/java.js"></script>
+
 </body>
 </html>
