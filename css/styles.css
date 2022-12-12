@@ -7,12 +7,12 @@ HSL  : 200, 74%, 47%
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: 'Poppins', sans-serif;
+  }
 
 body{
     min-height: 100vh;
@@ -22,6 +22,10 @@ body{
 
 .main-color{
     color: #1f97d4;
+}
+
+.textConfig{
+  font-size: 17px;
 }
 
 #headerbg{
@@ -178,4 +182,46 @@ body{
 }
 .color1:hover .bettercard6{
   height:600px;
+}
+
+
+/*INPUT ANIMATION*/
+
+.input-field{
+  position: relative;
+}
+
+.input-field input{
+
+  width: 450px;
+  height: 50px;
+border-radius: 6px;
+font-size: 18px;
+padding: 0 15px;
+border: 2px solid #fff;
+background: transparent;
+color: #fff;
+outline: none;
+}
+
+.input-field label{
+position: absolute;
+top: 50%;
+left: 15px;
+transform: translateY(-50%);
+color: #fff;
+font-size: 19px;
+pointer-events: none;
+transition: 0.3s;
+}
+input:focus{
+border: 2px solid #1f97d4;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: 0;
+left: 15px;
+font-size: 16px;
+padding: 0 2px;
+background: #060b23;
 }
